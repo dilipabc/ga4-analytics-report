@@ -1,6 +1,6 @@
 {
   "name": "ga4-analytics-report",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GA4 Analytics Report",
   "main": "index.js",
   "scripts": {
