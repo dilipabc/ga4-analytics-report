@@ -92,7 +92,7 @@ const AnalyticsReport = {
 
 module.exports = {
     createUrl: AnalyticsReport.createUrl,
-    createUrl: AnalyticsReport.createToken,
-    createUrl: AnalyticsReport.refreshToken,
-    createUrl: AnalyticsReport.generateReport,
+    createToken: AnalyticsReport.createToken,
+    refreshToken: AnalyticsReport.refreshToken,
+    generateReport: AnalyticsReport.generateReport,
 };
