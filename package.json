@@ -1,14 +1,11 @@
 {
   "name": "GA4 Analytics Report",
   "version": "1.0.0",
-  "description": "",
+  "description": "GA4 Analytics Report",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  },  
   "dependencies": {
     "axios": "^1.6.8",
     "qs": "^6.12.1",
@@ -19,5 +16,29 @@
     "grunt-contrib-jshint": "^3.2.0",
     "grunt-contrib-nodeunit": "^5.0.0",
     "grunt-contrib-uglify": "^5.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dilipabc/ga4-analytics-report"
+  },
+  "keywords": [
+    "ga4",
+    "analytics",
+    "report",
+    "google analytics",
+    "auth",
+    "token",
+    "access token",
+    "dimensions",
+    "metrics",
+    "authorization code",
+    "authorization token"
+  ],
+  "author": "dilipabc <dilipabc@gmail.com>",
+  "license": "Matrix Media Solutions Pvt. Ltd.",
+  "bugs": {
+    "url": "https://github.com/dilipabc/ga4-analytics-report/issues"
+  },
+  "homepage": "https://github.com/dilipabc/ga4-analytics-report#readme"
+
 }
