@@ -1,6 +1,6 @@
 # ga4-analytics-report
 
-GA4 Analytics Report
+The GA4 Analytics Report delivers concise insights into website or app performance through Google Analytics 4 (GA4). This comprehensive report offers key metrics and dimensions tailored to specific business objectives, empowering users with actionable data on user behavior, conversions, and engagement. Leveraging GA4's advanced tracking capabilities, businesses can optimize digital strategies, enhance user experiences, and drive growth. With its streamlined approach, the GA4 Analytics Report simplifies data interpretation, enabling informed decision-making and strategic planning.
 
 
 ## Install
@@ -17,7 +17,7 @@ $ npm install --save ga4-analytics-report
 - Generate The App Analytics Report
 
 
-## Usage
+## Create Url
 
    This function generates an authentication URL for Google. Simply paste this URL into your browser, authenticate with Google, and upon successful authentication, retrieve the 'code' from the return URL.
 
@@ -41,7 +41,7 @@ console.log(returnURL);
 
 ```
 
-## Usage
+## Create Token
 
    This function simplifies authentication with Google, providing essential access tokens and associated details. It returns an access token, along with its expiration time, refresh token, scope, and token type. The access token grants temporary access to Google APIs, while the refresh token enables seamless token renewal. Scope defines permitted actions, and token type specifies the token format. With these parameters, applications can securely interact with Google services, ensuring continuous access and adhering to user permissions.
 
@@ -65,7 +65,7 @@ ga4.createToken(options).then((response)=>{
 ```
 
 
-## Usage
+## Refresh Token
 
 This function extends the validity period of an access token and returns the updated token along with its remaining expiration time and type. By prolonging the access token's lifespan, it ensures continued access to protected resources. The function's output includes the refreshed access token, the duration until expiration, and the token type, facilitating seamless interaction with OAuth 2.0-protected APIs while maintaining security and access control.
 
@@ -73,7 +73,7 @@ This function extends the validity period of an access token and returns the upd
 ```js
 
 let options = {   
-    refresh_token: '1//0gnjijzhXRFW8CgYIARAAGBASNwF-L9IrlZ0IVZ55k3iZ72HTrlK_1B89rMLZpL42mYoQVdaaTiHD8pi8FbLWBIF1YraIh8nbuAg',
+    refresh_token: '',
     client_id: client_id,
     client_secret: client_secret
 }
@@ -87,7 +87,7 @@ ga4.refreshToken(options).then((response)=>{
 
 ```
 
-## Usage
+## Generate Report
 
 This function retrieves Google Analytics 4 (GA4) reports, offering valuable insights into website or app performance. By querying GA4 data, it provides comprehensive analytics reports, including metrics and dimensions tailored to specific business needs. Leveraging GA4's advanced tracking capabilities, the function furnishes essential data on user behavior, conversion rates, and engagement metrics. With its streamlined approach, businesses can gain actionable insights to optimize their digital strategies, enhance user experiences, and drive growth.
 
@@ -147,7 +147,7 @@ let orderBys = [
 ]
 
 let options = {
-    bearer_access_token: 'ya29.a0AXooCgu39YW8r9DL2kOACnInAZIMoM9tbChG9RgWKrwbe0XKumfrPc2JYIDDbTyIc85gGnMmJH_KVY_r3MaOv4eWMCx0hD_ynWHfCr2jVAuGLLFnjl65kJIiMfv_UDxD43RwJF0VWxxQ2zpVBGJP12MJRqGm8_d1eIdCaCgYKAUUSARESFQHGX2MiJ0D4gRHLyBct24uEqhtk8w0171',
+    bearer_access_token: '',
     client_id: client_id,
     client_secret: client_secret,
     property_id: property_id,
@@ -165,6 +165,16 @@ ga4.generateReport(options).then((response) => {
 });
 
 ```
+
+## 🔗 API Dimensions & Metrics
+
+These are just a few examples of dimensions and metrics available in GA4. You can explore the full list of dimensions and metrics in the 
+[[Google Analytics documentation]](https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema). Additionally, you can customize your queries based on your specific reporting needs.
+
+
+
+
+
 
 ## Certainly! Here are the step-by-step instructions to obtain the client ID, client secret, and property ID from the Google Console:
 
@@ -194,3 +204,15 @@ Remember to keep your client secret secure and never expose it in client-side co
 
 ## license
 Matrix Media Solutions Pvt. Ltd.
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/dilip-shaw-2740769_dilipabcnodeframe1-activity-6576729679556853760-JiaP)
+
+
+## 🚀 About Me
+I'm a full stack developer. Experienced developer with over 20 years of expertise in crafting scalable web applications. Proficient in frontend technologies such as Angular and React, alongside extensive experience in WordPress, Drupal, and backend frameworks like Node.js. With a proven track record of delivering high-quality solutions to meet client needs and drive business objectives, I bring a versatile skill set and a commitment to excellence to every project.
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at dilipabc@gmail.com
