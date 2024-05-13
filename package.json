@@ -1,6 +1,6 @@
 {
   "name": "ga4-analytics-report",
-  "version": "1.0.5",  
+  "version": "1.0.6",  
   "description": "The GA4 Analytics Report delivers concise insights into website or app performance through Google Analytics 4 (GA4). This comprehensive report offers key metrics and dimensions tailored to specific business objectives, empowering users with actionable data on user behavior, conversions, and engagement. Leveraging GA4's advanced tracking capabilities, businesses can optimize digital strategies, enhance user experiences, and drive growth. With its streamlined approach, the GA4 Analytics Report simplifies data interpretation, enabling informed decision-making and strategic planning.",
   "main": "index.js",
   "scripts": {
