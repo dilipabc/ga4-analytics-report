@@ -172,8 +172,9 @@ These are just a few examples of dimensions and metrics available in GA4. You ca
 [[Google Analytics documentation]](https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema). Additionally, you can customize your queries based on your specific reporting needs.
 
 
+## 🔗 Configration Require
 
-
+To access analytics reports, enabling the Google Analytics API and configuring Google Firebase Analytics is essential. By activating the Google Analytics API, users unlock access to data retrieval functionalities, enabling seamless extraction of insights. Concurrently, configuring Google Firebase Analytics ensures comprehensive tracking of user interactions across web and app platforms, enriching the analytics dataset. Together, these steps facilitate robust data collection and analysis, empowering businesses to derive actionable insights for informed decision-making and strategic planning.
 
 
 ## Certainly! Here are the step-by-step instructions to obtain the client ID, client secret, and property ID from the Google Console:
