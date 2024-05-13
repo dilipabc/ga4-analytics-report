@@ -204,7 +204,7 @@ Remember to keep your client secret secure and never expose it in client-side co
 
 
 ## license
-Matrix Media Solutions Pvt. Ltd.
+MIT
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/dilip-shaw-2740769_dilipabcnodeframe1-activity-6576729679556853760-JiaP)
